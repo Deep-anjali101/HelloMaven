@@ -1,0 +1,6 @@
+projectKey=com.Hello:HelloMaven
+serverUrl=http://localhost:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://localhost:9000/dashboard?id=com.Hello%3AHelloMaven
+ceTaskId=b5cb33ca-8969-458b-95c4-87ebe61c8870
+ceTaskUrl=http://localhost:9000/api/ce/task?id=b5cb33ca-8969-458b-95c4-87ebe61c8870
