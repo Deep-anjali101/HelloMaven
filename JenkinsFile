@@ -16,6 +16,16 @@ pipeline {
                 bat "mvn package"
             }
         }
+		 stage('Tomcat') {
+            steps {
+                bat " "
+            }
+        }
+		 stage('environment') {
+            steps {
+                bat " "
+            }
+        }
 		
 		
         
