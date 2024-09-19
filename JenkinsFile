@@ -8,12 +8,12 @@ pipeline {
         }
         stage('build') {
             steps {
-                bat "mvn clean test package"
+                bat "mvn clean test "
             }
         }
         stage('deploy') {
             steps {
-                bat "HelloWorld!"
+                bat "mvn package"
             }
         }
         
