@@ -16,14 +16,6 @@ pipeline {
                 bat "java Hello"
             }
         }
-        stage('tomcat') {
-           
-           
-        }
-
-        stage('environment'){
-             
-           
-        }
+        
     }
 }
