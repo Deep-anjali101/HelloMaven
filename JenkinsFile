@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git "https://github.com/Deep-anjali101/HelloMaven.git"
+            }
+        }
+        stage('build') {
+            steps {
+                bat "javac App.java"
+            }
+        }
+        stage('deploy') {
+            steps {
+                bat "java Hello"
+            }
+        }
+        stage('tomcat') {
+           
+            steps {
+                
+              
+                
+            }
+        }
+
+        stage('environment'){
+             steps {
+               
+            }
+           
+        }
+    }
+}
