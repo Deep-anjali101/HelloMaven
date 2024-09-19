@@ -8,12 +8,12 @@ pipeline {
         }
         stage('build') {
             steps {
-                bat "javac App.java"
+                bat "mvn clean test package"
             }
         }
         stage('deploy') {
             steps {
-                bat "java Hello"
+                bat "HelloWorld!"
             }
         }
         
